@@ -1,0 +1,8 @@
+D:\C#\Project_LTM\ServerMain\Command_Main\obj\Debug\Command_Main.Properties.Resources.resources
+D:\C#\Project_LTM\ServerMain\Command_Main\obj\Debug\Command_Main.csproj.GenerateResource.cache
+D:\C#\Project_LTM\ServerMain\Command_Main\obj\Debug\Command_Main.csproj.CoreCompileInputs.cache
+D:\C#\Project_LTM\ServerMain\Command_Main\bin\Debug\Command_Main.dll
+D:\C#\Project_LTM\ServerMain\Command_Main\bin\Debug\Command_Main.pdb
+D:\C#\Project_LTM\ServerMain\Command_Main\obj\Debug\Command_Main.dll
+D:\C#\Project_LTM\ServerMain\Command_Main\obj\Debug\Command_Main.pdb
+D:\C#\Project_LTM\ServerMain\Command_Main\obj\Debug\Command_Main.csproj.AssemblyReference.cache

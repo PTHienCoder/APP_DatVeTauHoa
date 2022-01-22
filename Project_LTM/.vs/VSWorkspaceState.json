@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ServerMain",
+    "\\ServerMain\\Command",
+    "\\ServerMain\\ServerMain"
+  ],
+  "SelectedNode": "\\ServerMain\\Command\\Encrypt_Decrypt_DataBase.cs",
+  "PreviewInSolutionExplorer": false
+}

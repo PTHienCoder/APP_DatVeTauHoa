@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7DCB797-2D79-4121-8DAE-9F376E9F6FFB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Command_Main</RootNamespace>
+    <AssemblyName>Command_Main</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataObjects\ItemSearch.cs" />
+    <Compile Include="DataObjects\Item_Gatau.cs" />
+    <Compile Include="DeleteBookingRequest.cs" />
+    <Compile Include="SendRepone_Search.cs" />
+    <Compile Include="SendRequest_Search.cs" />
+    <Compile Include="SenReponse_Gadi.cs" />
+    <Compile Include="SendRequest_Gadi.cs" />
+    <Compile Include="UpdateProfile_Request.cs" />
+    <Compile Include="Booking_Response_t.cs" />
+    <Compile Include="BuyTicketRequest.cs" />
+    <Compile Include="CertificateRequest.cs" />
+    <Compile Include="CertificateResponse.cs" />
+    <Compile Include="Cryptography.cs" />
+    <Compile Include="DataObjects\InfoItem.cs" />
+    <Compile Include="DataObjects\InfoUser.cs" />
+    <Compile Include="DataObjects\ItemHis.cs" />
+    <Compile Include="Encrypt_Decrypt_DataBase.cs" />
+    <Compile Include="LoginRequest.cs" />
+    <Compile Include="LoginRequestSocketServer.cs" />
+    <Compile Include="LoginResponse.cs" />
+    <Compile Include="LoginResponseSocketServercs.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestKeySerVer.cs" />
+    <Compile Include="SecureEncryption_client.cs" />
+    <Compile Include="SecureEncryption_server.cs" />
+    <Compile Include="SendInfoTicketRequest.cs" />
+    <Compile Include="SendInfoTicketResponse.cs" />
+    <Compile Include="SendInfUserRequest.cs" />
+    <Compile Include="SendInfUserResponse.cs" />
+    <Compile Include="SendKeySVRequest.cs" />
+    <Compile Include="SendRequestHistoty.cs" />
+    <Compile Include="SenReponHistory.cs" />
+    <Compile Include="SerializeHelpers.cs" />
+    <Compile Include="SharedKeyRequest.cs" />
+    <Compile Include="SharedKeyResponse.cs" />
+    <Compile Include="SocketClient.cs" />
+    <Compile Include="SocketServer.cs" />
+    <Compile Include="SoketCommand.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

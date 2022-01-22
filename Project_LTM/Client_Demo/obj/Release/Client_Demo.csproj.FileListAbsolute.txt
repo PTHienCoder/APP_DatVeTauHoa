@@ -1,0 +1,17 @@
+D:\C#\Project_LTM\Client_Demo\bin\Release\Client_Demo.exe.config
+D:\C#\Project_LTM\Client_Demo\bin\Release\Client_Demo.exe
+D:\C#\Project_LTM\Client_Demo\bin\Release\Client_Demo.pdb
+D:\C#\Project_LTM\Client_Demo\bin\Release\Command_Main.dll
+D:\C#\Project_LTM\Client_Demo\bin\Release\Guna.UI2.dll
+D:\C#\Project_LTM\Client_Demo\bin\Release\Command_Main.pdb
+D:\C#\Project_LTM\Client_Demo\obj\Release\Client_Demo.csproj.AssemblyReference.cache
+D:\C#\Project_LTM\Client_Demo\obj\Release\Client_Demo.Home.resources
+D:\C#\Project_LTM\Client_Demo\obj\Release\Client_Demo.Login_Client.resources
+D:\C#\Project_LTM\Client_Demo\obj\Release\Client_Demo.Properties.Resources.resources
+D:\C#\Project_LTM\Client_Demo\obj\Release\Client_Demo.SetInfor_User.resources
+D:\C#\Project_LTM\Client_Demo\obj\Release\Client_Demo.UC_SignUp.resources
+D:\C#\Project_LTM\Client_Demo\obj\Release\Client_Demo.csproj.GenerateResource.cache
+D:\C#\Project_LTM\Client_Demo\obj\Release\Client_Demo.csproj.CoreCompileInputs.cache
+D:\C#\Project_LTM\Client_Demo\obj\Release\Client_Demo.csproj.CopyComplete
+D:\C#\Project_LTM\Client_Demo\obj\Release\Client_Demo.exe
+D:\C#\Project_LTM\Client_Demo\obj\Release\Client_Demo.pdb

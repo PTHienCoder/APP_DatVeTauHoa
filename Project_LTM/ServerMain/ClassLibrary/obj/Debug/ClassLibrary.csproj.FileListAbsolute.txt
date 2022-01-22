@@ -1,0 +1,9 @@
+D:\C#\Project_LTM\ServerMain\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\C#\Project_LTM\ServerMain\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\C#\Project_LTM\ServerMain\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\C#\Project_LTM\ServerMain\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\C#\Project_LTM\ServerMain\ClassLibrary\obj\Debug\ClassLibrary.pdb
+D:\C#\Project_LTM\ServerMain\ClassLibrary\bin\Debug\Command_Main.dll
+D:\C#\Project_LTM\ServerMain\ClassLibrary\bin\Debug\Command_Main.pdb
+D:\C#\Project_LTM\ServerMain\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+D:\C#\Project_LTM\ServerMain\ClassLibrary\obj\Debug\ClassLibrary.csproj.CopyComplete
